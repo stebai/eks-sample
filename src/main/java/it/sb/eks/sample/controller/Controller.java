@@ -14,7 +14,7 @@ public class Controller {
 
     @GetMapping("/test")
     public ResponseEntity<?> test(){
-        log.info("TEST =======================> OK");
+//        log.info("TEST =======================> OK");
         return new ResponseEntity<>("Test OK", HttpStatus.OK);
     }
 }
