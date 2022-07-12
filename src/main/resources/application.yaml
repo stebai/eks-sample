@@ -1,4 +1,4 @@
 server:
-  servlet:
-    context-path: /eks
+#  servlet:
+#    context-path: /eks
   port: '8085'
